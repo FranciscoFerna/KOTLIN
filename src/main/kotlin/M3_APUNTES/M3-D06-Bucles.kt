@@ -1,3 +1,5 @@
+package M3_APUNTES
+
 import java.util.Scanner
 
 /* Bucle FOR

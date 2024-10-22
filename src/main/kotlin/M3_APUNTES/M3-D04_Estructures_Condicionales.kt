@@ -1,4 +1,5 @@
-import java.awt.geom.Dimension2D
+package M3_APUNTES
+
 import java.util.Scanner
 
 /*/ Estructuras Condicionales
