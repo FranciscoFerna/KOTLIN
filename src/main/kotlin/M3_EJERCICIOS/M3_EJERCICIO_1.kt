@@ -7,7 +7,6 @@ import kotlin.math.min
 Basandome en 5 ejercicios del Jo-El en donde se trabaja if, switch, control de datos con validaciones, estructuras de bucles para procesar multiples casos, y el uso de rangos numericos y cadenas de texto. He decidido hacer un enunciado con un problema que sea englobe todos los conecptos. Antes de mirar la solucion, te propongo que lo intentes tu!
 
 Tienes el enunciado en M3_ENUNCIADO_EJERCICIO_1.md
-println(if (year % 100 in 90..99) "SI" else "NO")
 */
 
 fun main() {
