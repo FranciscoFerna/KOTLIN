@@ -5,9 +5,7 @@ import kotlin.math.min
 
 /*
 Basandome en 5 ejercicios del Jo-El. He hecho este ejercicio, donde se trabajarán conceptos fundamentales de programación como condicionales (if, switch), bucles para procesar múltiples casos, validaciones de entrada y manejo de datos.
-
 Tienes el enunciado en M3_ENUNCIADO_EJERCICIO_2.md
-
 */
 
 fun main() {
