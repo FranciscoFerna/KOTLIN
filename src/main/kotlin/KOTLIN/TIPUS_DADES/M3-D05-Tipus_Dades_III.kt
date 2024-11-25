@@ -1,4 +1,4 @@
-package M3_APUNTES.TIPUS_DADES
+package KOTLIN.TIPUS_DADES
 
 import java.util.Scanner
 

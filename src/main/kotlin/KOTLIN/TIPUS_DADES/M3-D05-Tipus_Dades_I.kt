@@ -1,4 +1,4 @@
-package M3_APUNTES.TIPUS_DADES/*
+package KOTLIN.TIPUS_DADES/*
 Hi ha dos mètodes per imprimir informació per pantalla:
 print() - La comanda print imprimeix per pantalla
 println() - En canvi, println imprimeix per pantalla i afegeix un salt de línia al final

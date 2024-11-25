@@ -1,4 +1,4 @@
-package M3_APUNTES
+package KOTLIN
 
 import java.util.Scanner
 
