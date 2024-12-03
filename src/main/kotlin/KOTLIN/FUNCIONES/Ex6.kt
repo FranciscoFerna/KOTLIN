@@ -1,4 +1,4 @@
-package KOTLIN.FirstFunctions
+package KOTLIN.FUNCIONES
 
 import java.util.*
 
