@@ -1,6 +1,7 @@
 package KOTLIN.FUNCIONES
 
-import java.util.Scanner
+import KOTLIN.SCANNER
+
 
 /*
 Crea un programa que llegeixi el valor del radi d’una esfera. Seguidament ha de calcular el seu volum i mostrar-lo per pantalla des de la funció main.
@@ -11,7 +12,6 @@ Extra: Amplia l’agoritme afegint-hi un menú i que permeti també calcular l�
 */
 
 fun main() {
-    val SCANNER: Scanner = Scanner(System.`in`)
     var continueProgram: Boolean = true
     val TEXT_MENU: String = "\nCalculadora d'arees\n" +
             "1. Calcular el volum d'una esfera.\n" +
