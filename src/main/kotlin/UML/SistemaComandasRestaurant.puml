@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+/'
+Sistema de Comandes en un Restaurant:
+Volem fer el disseny de casos d'ús d'una aplicació de reserva de comandes d'un restaurant, on els clients poden fer una comanda, els cuiners poden veure comandes pendents i els repartidors poden lliurar comandes i notificar entrega.
+Important: per fer la comanda, els clients han de seleccionar plats, i en el moment de pagar, si volen, poden afegir propina.
+'/
+
+left to right direction
+skinparam packageStyle rect
+actor Client
+actor Cuiner
+actor Repartidor
+actor Sistema
+
+rectangle "Sistema de Comandes en un Restaurant" {
+  Client --> (Fer comanda)
+  Client --> (Seleccionar plats)
+  Client --> (Afegir propina)
+  Cuiner --> (Veure comandes pendents)
+  Repartidor --> (Lliurar comanda)
+  Repartidor --> (Notificar entrega)
+  Sistema --> (Enviar confirmació)
+}
+
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+/'
+Sistema de Venda d'Entrades:
+Volem fer el disseny de casos d'ús d'una aplicació de venda d'entrades per a concerts, on l’administrador pot afegir nous esdeveniments i gestionar vendes, els usuaris poden cercar esdeveniments i comprar entrades, i els usuari registrats poden veure el seu historial de compres i cancel·lar entrades.
+'/
+
+left to right direction
+skinparam packageStyle rect
+actor Administrador
+actor Usuari
+actor UsuariRegistrat
+actor Sistema
+
+rectangle "Sistema de Venda d'Entrades" {
+  Administrador --> (Afegir nous esdeveniments)
+  Administrador --> (Gestionar vendes)
+  Usuari --> (Cercar esdeveniments)
+  Usuari --> (Comprar entrades)
+  UsuariRegistrat --> (Veure historial de compres)
+  UsuariRegistrat --> (Cancelar entrades)
+  Sistema --> (Enviar confirmació)
+}
+
+@enduml

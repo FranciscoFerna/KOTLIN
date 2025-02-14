@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+/'
+Plataforma d'E-learning:
+Volem fer el disseny de casos d'ús d'una aplicació per a una plataforma educativa, on els professors poden crear cursos i gestionar continguts, i els estudiants es poden inscriure a un curs
+Important: per a que un estudiant es pugui inscriure a un curs, primer s'ha de validar el pagament.
+'/
+
+left to right direction
+skinparam packageStyle rect
+actor Professor
+actor Estudiant
+actor Sistema
+
+rectangle "Plataforma d'E-learning" {
+  Professor --> (Crear curs)
+  Professor --> (Gestionar continguts)
+  Estudiant --> (Inscriure's a un curs)
+  Sistema --> (Validar pagament)
+}
+
+@enduml

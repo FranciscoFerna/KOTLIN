@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+/'
+Sistema de Gestió d'Una Biblioteca:
+Volem fer el disseny de casos d'ús d'una aplicació de gestió d'una biblioteca, on els bibliotecaris poden registrar nous llibres i gestionar préstecs, i els usuaris poden buscar llibres i agafar-ne’n en préstec.
+Important: Si un usuari no retorna el llibre a temps, el sistema activa una opció de notificar retard.
+'/
+
+left to right direction
+skinparam packageStyle rect
+actor Bibliotecari
+actor Usuari
+actor Sistema
+
+rectangle "Sistema de Gestió d'Una Biblioteca" {
+  Bibliotecari --> (Registrar nous llibres)
+  Bibliotecari --> (Gestionar préstecs)
+  Usuari --> (Buscar llibres)
+  Usuari --> (Agafar llibres en préstec)
+  Sistema --> (Notificar retard)
+}
+
+@enduml
